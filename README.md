@@ -1,13 +1,12 @@
 # lab7ado
 
-nama access file - Record.mdb
-nama table - Student
+access file name : Record.mdb
 
-btnname 
+table name : Student
 
-<<   - btnpreviousdouble
-<    - btnPrevious
->    - btnForward
->>   - btnForwarddouble
+btnName
 
-database connect ikut contoh haritu
+<<   : btnpreviousdouble
+<    : btnPrevious
+>    : btnForward
+>>   : btnForwarddouble
