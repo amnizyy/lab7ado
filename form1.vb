@@ -17,6 +17,8 @@ Public Class Form1
         con.ConnectionString = dbProvider & dbSource
         con.Open()
 
+        con.close()
+
         sql = "SELECT * FROM Student"
         da = New OleDb.OleDbDataAdapter(sql, con)
         da.Fill(ds, "Record")
